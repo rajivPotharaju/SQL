@@ -1,0 +1,10 @@
+create database Customer;
+use Customer;
+create table c_details(c_name varchar(15),c_id int PRIMARY KEY,c_salary int);
+INSERT INTO c_details VALUES ( 'Clark',101,25000);
+INSERT INTO c_details VALUES ('Dave',102, 30000);
+INSERT INTO c_details VALUES ( 'Ava',103, 40000);
+INSERT INTO c_details VALUES ( 'Mona',104,23000);
+INSERT INTO c_details VALUES ('Ramu',105, 31000);
+INSERT INTO c_details VALUES ( 'joe',106, 42000);
+SELECT * FROM c_details;
